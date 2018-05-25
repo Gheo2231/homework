@@ -1,3 +1,6 @@
+/*Given three values representing the angles in a triangle, 
+print if the triangle is right-angled or not (check if the triangle is a valid one)*/
+
 public class homework_1{
     public static void main(String[] args){
 
