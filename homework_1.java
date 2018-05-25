@@ -2,7 +2,7 @@ public class homework_1{
     public static void main(String[] args){
 
         int Side1, Side2, Side3, sumAngles;
-        boolean rightAngle, noTriangle, firstSide, secondSide, thirdSide, triangleProof;
+        boolean rightAngle, firstSide, secondSide, thirdSide, triangleProof;
 
         Side1=90;
         Side2=20;
