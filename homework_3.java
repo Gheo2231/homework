@@ -13,7 +13,7 @@ public class homework_3 {
           System.out.print("Give a number of hours that you want to convert in miliseconds: ");
           int X = keyboardScan.nextInt();
           
-          System.out.print("..now some minutes: ");
+          System.out.print("now some minutes: ");
           int Y = keyboardScan.nextInt();
           
           System.out.print(" and seconds: ");
@@ -30,9 +30,10 @@ public class homework_3 {
             //How can i put both to be checked for true, e.g.: boolean bothOk=(Z,Y) <=0 ; ?
             boolean zOk = Y>=0;
             boolean yOk = Z>=0;
-            boolean bothOk = zOk && yOk;
+            boolean xOk = X>=0;
+            boolean allOk = zOk && yOk && xOk;
 
-            System.out.println(Yok && Zok && bothOk ? "X converted to miliseconds is: "+msX+", Y equals to: "+msY+
-                    ", Z is "+msZ+" and total given time converted to miliseconds is: "+msAll+"." : "Please check the data you provided");
+            System.out.println(Yok && Zok && allOk ? "Hours converted to miliseconds is: "+msX+", minutes equals to: "+msY+
+                    ", seconds are "+msZ+" and total given time converted to miliseconds is: "+msAll+"." : "Please check the data you provided");
         }
     }
