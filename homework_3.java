@@ -1,8 +1,24 @@
+/*Write a program that calculates the number of milliseconds contained in
+X hours 
+Y minutes
+Z seconds, where X, Y and Z are inputs introduced by the user. 
+(check that Y < 60, Z < 60, and both >= 0)*/
+
+import java.util.Scanner;
+
 public class homework_3 {
         public static void main (String[] args) {
-            int X = 1;
-            int Y = 4;
-            int Z = 1;
+        Scanner keyboardScan = new Scanner(System.in);
+        
+          System.out.print("Give a number of hours that you want to convert in miliseconds: ");
+          int X = keyboardScan.nextInt();
+          
+          System.out.print("..now some minutes: ");
+          int Y = keyboardScan.nextInt();
+          
+          System.out.print(" and seconds: ");
+          int Z = keyboardScan.nextInt();
+      
             int msX = (X * 3600) * 1000;
             int msY = (Y * 60) * 1000;
             int msZ = Z * 1000;
