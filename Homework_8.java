@@ -12,7 +12,7 @@ public class Homework_8{
         int b = keyboardScan.nextInt();
         int c = keyboardScan.nextInt();
 
-        if (b>a || c>b){
+        if (b>a && c>b){
             System.out.println("True.\nOk... Now look for the truth.");
         }
         else {
