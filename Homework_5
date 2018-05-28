@@ -1,0 +1,13 @@
+public class Homework_5{
+    public static void main(String[] args){
+
+        double imperial = 6.4;
+        double imperial2metricValue = 3.28;
+        double metric = imperial/imperial2metricValue;
+        int meters = (int)metric;
+        double centimeters = metric*100;
+
+        System.out.printf("You are %d meter and %d centimeters long", meters, (int)centimeters);
+    }
+
+}
